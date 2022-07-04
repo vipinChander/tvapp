@@ -20,7 +20,7 @@ public class MainActivity extends AppCompatActivity {
         ArrayAdapter adapter = new ArrayAdapter<String>(this,
                 R.layout.left_design, R.id.title_name, mobileArray);
         listView.setAdapter(adapter);
-
+//
         listView.setOnFocusChangeListener(new View.OnFocusChangeListener() {
             @Override
             public void onFocusChange(View view, boolean b) {
