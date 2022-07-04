@@ -22,6 +22,7 @@ public class MainActivity extends AppCompatActivity {
         listView.setAdapter(adapter);
 // shchdd
         /// jxj
+        //ddf
         listView.setOnFocusChangeListener(new View.OnFocusChangeListener() {
             @Override
             public void onFocusChange(View view, boolean b) {
